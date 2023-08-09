@@ -1,11 +1,17 @@
 export function Title(props: any) {
   return (
-    <h1 className="text-6xl font-bold text-gray-800 mb-8">{props.children}</h1>
+    <h1 className="text-6xl font-medium text-gray-800 mb-8">
+      {props.children}
+    </h1>
   );
 }
 
 export function Header(props: any) {
-  return <span className=" text-6xl tracking-{-2px}  ">{props.children}</span>;
+  return (
+    <span className="text-4xl text-gray-800 tracking-tight">
+      {props.children}
+    </span>
+  );
 }
 
 export function SubTitle(props: any) {

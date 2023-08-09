@@ -17,17 +17,23 @@ const Home: React.FC = () => {
 
   return (
     <>
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <Wrapper>
-          <Title> Hello </Title>
-          <Header className="italic px100">Joshua Lim </Header>{" "}
-          <Header className="italic px30 tracking-tighter">(noun) - </Header>{" "}
-          <Header className="flex">
-            A Full-Stack Developer. Someone that turns coffee into code. A
-            person who loves
-            <TypeWriter />
-          </Header>
-        </Wrapper>
+      <main className="flex min-h-screen flex-col items-center justify-between p-28">
+        <div className="bg-white rounded-2xl grid gap-4 grid-cols-2 grid-rows-2 p-7 ">
+          <Title> Hello</Title>
+          <div> </div>
+          <div>
+            <span className="italic  font-['Noto_Serif']  text-8xl">
+              Joshua Lim{" "}
+            </span>{" "}
+            <span className="italic text-3xl tracking-tightest">(noun) -</span>{" "}
+            <Header className="flex">
+              A Full-Stack Developer. Someone that turns coffee into code. A
+              person who loves
+              <TypeWriter />
+            </Header>{" "}
+          </div>
+          <div> </div>
+        </div>
       </main>
     </>
   );
