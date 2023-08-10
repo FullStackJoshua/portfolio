@@ -7,7 +7,7 @@ import Wrapper from "@/components/Wrapper";
 export default function Navbar() {
   return (
     <Wrapper>
-      <nav className="flex justify-between py-5">
+      <nav className="flex justify-between bg-white rounded-2xl mt-5  p-5">
         <div className="flex items-center">
           <h1 className="font-medium text-4xl">Brand</h1>
         </div>
