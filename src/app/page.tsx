@@ -18,32 +18,33 @@ const Home: React.FC = () => {
   return (
     <>
       <Wrapper>
-        <div className="flex py-16">
-          <div className="bg-white rounded-2xl grid gap-4 grid-cols-2 grid-rows-2 p-7 ">
-            <div>
-              <Title> Hello</Title>
-            </div>
-            <div> </div>
-            <div>
-              {" "}
-              <span className="italic  font-['Noto_Serif']  text-8xl">
-                Joshua Lim{" "}
-              </span>{" "}
-              <span className="italic text-3xl tracking-tightest">(noun) </span>{" "}
-              <Header className="flex">
-                - A Full Stack Developer. Someone that turns coffee into code. A
-                person who loves
-                <TypeWriter />
-              </Header>{" "}
-            </div>
-
-            <div className="flex justify-end items align-bottom">
-              <div className="mt-auto">
-                <Button>Get in Touch</Button>
-              </div>
+        <section className="bg-white rounded-xl mt-16 p-4 grid gap-5 grid-cols-2 grid-rows-2 ">
+          <div>
+            <Title> Hello</Title>
+          </div>
+          <div className="flex justify-end items align-bottom">Test </div>
+          <div className="pt-10">
+            <span className="italic font-['Noto_Serif']   text-5xl">
+              Joshua Lim
+            </span>
+            <span className="italic text-2xl tracking-tightest">(noun) </span>
+            <Header className="flex">
+              - A Full Stack Developer. Someone that turns coffee into code. A
+              person who loves
+              <TypeWriter />
+            </Header>
+          </div>
+          <div className="flex justify-end items align-bottom">
+            <div className="mt-auto">
+              <Button>Get in Touch</Button>
             </div>
           </div>
-        </div>
+        </section>
+
+        <section className="flex">
+          <div className="bg-white rounded-xl p-5 mt-2 mr-2"> Hello</div>
+          <div className="bg-white rounded-xl p-5 mt-2 "> Hello</div>
+        </section>
       </Wrapper>
     </>
   );

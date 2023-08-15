@@ -16,7 +16,7 @@ const TypeWriter: React.FC = () => {
       " Caffeine.",
       " Travel.",
       " Gym.",
-      " Pets.",
+      " Dogs.",
       " Food.",
       " Video Games.",
     ];

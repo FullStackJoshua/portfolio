@@ -8,7 +8,7 @@ export function Title(props: any) {
 
 export function Header(props: any) {
   return (
-    <span className="text-4xl text-gray-800 tracking-tight">
+    <span className="text-3xl text-gray-800 tracking-tight">
       {props.children}
     </span>
   );
