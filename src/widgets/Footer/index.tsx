@@ -6,7 +6,7 @@ import Button from "@/components/Button";
 export default function Footer() {
   return (
     <Wrapper>
-      <footer className="border-t px-4 sm:px-12 md:px-16 lg:px-32 flex justify-between bg-white rounded-2xl mt-5">
+      <footer className="border-t px-8 sm:px-2 md:px-4 lg:px-8 flex justify-between bg-white rounded-2xl mt-5">
         <div className="grid grid-cols-1 gap-4 sm:gap-6 md:gap-8 lg:gap-9 sm:grid-cols-2 lg:grid-cols-4 py-6 sm:py-12 md:py-24 lg:py-36">
           {/* Column 1 */}
           <div>

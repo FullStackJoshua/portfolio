@@ -5,6 +5,7 @@ import Wrapper from "@/components/Wrapper";
 import Button from "@/components/Button";
 import React, { useEffect } from "react";
 import TypeWriter from "@/components/TypeWriter";
+import List from "@/components/SkillList";
 
 const Home: React.FC = () => {
   useEffect(() => {
@@ -18,9 +19,9 @@ const Home: React.FC = () => {
   return (
     <>
       <Wrapper>
-        <section className="bg-white rounded-xl mt-16 p-4 grid gap-5 grid-cols-2 grid-rows-2 ">
+        <section className="bg-white rounded-xl mt-16 p-6 grid gap-5 grid-cols-2 grid-rows-2 ">
           <div>
-            <Title> Hello</Title>
+            <Title>Hello</Title>
           </div>
           <div className="flex justify-end items align-bottom">Test </div>
           <div className="pt-10">
@@ -41,9 +42,58 @@ const Home: React.FC = () => {
           </div>
         </section>
 
-        <section className="flex">
-          <div className="bg-white rounded-xl p-5 mt-2 mr-2"> Hello</div>
-          <div className="bg-white rounded-xl p-5 mt-2 "> Hello</div>
+        <section className="grid gap-2 grid-cols-2">
+          <div className="bg-white rounded-xl p-6 mt-2 grid gap-5 grid-rows-2">
+            <div> Get to know me better!</div>
+            <div>
+              My name is Joshua. Living in New York City. Currently a senior at
+              City Tech. Aiming for my Bachelor's Degree in Computer Software
+              Development. When I'm not caught up in my busy schoolwork. I spend
+              time reading, watching youtube, lifting weights, and creating
+              projects. And of course, the occasional binge-watching on Netflix,
+              napping, or video games.
+            </div>
+          </div>
+          <div className="bg-white rounded-xl p-5 mt-2 "></div>
+        </section>
+        <section className="grid gap-2 grid-cols-3">
+          <div className="bg-white rounded-xl p-5 mt-2">
+            <ul>
+              Tech Stack
+              <List>HTML</List>
+              <List>CSS</List>
+              <List>Javascript</List>
+              <List>Java</List>
+              <List>Python</List>
+              <List>SQL</List>
+            </ul>
+          </div>
+          <div className="bg-white rounded-xl p-5 mt-2  mr-2">
+            <ul>
+              Frameworks/Tools
+              <List>React.Js</List>
+              <List>Next.js </List>
+              <List>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+                Tailwind CSS
+              </List>
+              <List>Git </List>
+              <List>Postman</List>
+            </ul>
+          </div>
+
+          <div className="bg-white rounded-xl p-5 mt-2  mr-2">
+            <ul>
+              <li>Communication</li>
+              <li>Problem-Solving</li>
+              <li>Adapatability</li>
+              <li>Teamwork</li>
+              <li>Time Management</li>
+              <li> Critical Thinking</li>
+              <li>Leadership</li>
+              <li>Continuous Learning</li>
+            </ul>
+          </div>
         </section>
       </Wrapper>
     </>
