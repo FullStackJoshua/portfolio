@@ -60,38 +60,64 @@ const Home: React.FC = () => {
           <div className="bg-white rounded-xl p-5 mt-2">
             <ul>
               Tech Stack
-              <List>HTML</List>
-              <List>CSS</List>
-              <List>Javascript</List>
-              <List>Java</List>
-              <List>Python</List>
-              <List>SQL</List>
+              <List>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                HTML
+              </List>
+              <List>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                CSS
+              </List>
+              <List>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                Javascript
+              </List>
+              <List>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                Java
+              </List>
+              <List>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                Python
+              </List>
+              <List>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+                SQL
+              </List>
             </ul>
           </div>
           <div className="bg-white rounded-xl p-5 mt-2  mr-2">
             <ul>
               Frameworks/Tools
-              <List>React.Js</List>
-              <List>Next.js </List>
+              <List>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                React.Js
+              </List>
+              <List>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" />
+                Next.js{" "}
+              </List>
               <List>
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
                 Tailwind CSS
               </List>
-              <List>Git </List>
-              <List>Postman</List>
+              <List>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+                Git{" "}
+              </List>
             </ul>
           </div>
 
           <div className="bg-white rounded-xl p-5 mt-2  mr-2">
             <ul>
-              <li>Communication</li>
-              <li>Problem-Solving</li>
-              <li>Adapatability</li>
-              <li>Teamwork</li>
-              <li>Time Management</li>
-              <li> Critical Thinking</li>
-              <li>Leadership</li>
-              <li>Continuous Learning</li>
+              <List>Communication</List>
+              <List>Problem-Solving</List>
+              <List>Adapatability</List>
+              <List>Teamwork</List>
+              <List>Time Management</List>
+              <List> Critical Thinking</List>
+              <List>Leadership</List>
+              <List>Continuous Learning</List>
             </ul>
           </div>
         </section>
