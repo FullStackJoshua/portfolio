@@ -42,8 +42,8 @@ const Home: React.FC = () => {
           </div>
         </section>
 
-        <section className="grid gap-2 grid-cols-2">
-          <div className="bg-white rounded-xl p-6 mt-2 grid gap-5 grid-rows-2">
+        <section className="flex gap-2">
+          <div className="bg-white rounded-xl p-5 mt-2 grid gap-5 grid-rows-2">
             <div> Get to know me better!</div>
             <div>
               My name is Joshua. Living in New York City. Currently a senior at
@@ -108,12 +108,9 @@ const Home: React.FC = () => {
             </ul>
           </div>
 
-          <div className="bg-white rounded-xl p-5 mt-2  mr-2">
+          <div className="bg-white rounded-xl p-5 mt-2 mr-2">
             <ul>
-              <List
-                imgSrc="file:///C:/Users/Istrike1st/Downloads/communication-conversation-bubble-svgrepo-com.svg"
-                description="Communication"
-              />
+              <List description="Communication" />
               <List description="Problem-Solving" />
               <List description="Adapatability" />
               <List description="Teamwork" />
@@ -124,6 +121,7 @@ const Home: React.FC = () => {
             </ul>
           </div>
         </section>
+        <section className="bg-white rounded-xl m-2 p-6">Hello</section>
       </Wrapper>
     </>
   );
