@@ -6,7 +6,7 @@ import Button from "@/components/Button";
 import React, { useEffect } from "react";
 import TypeWriter from "@/components/TypeWriter";
 import List from "@/components/SkillList";
-
+import { InputField, SubmitButton, TextArea } from "@/components/Form";
 const Home: React.FC = () => {
   useEffect(() => {
     // Import the TypeWriter component dynamically
@@ -42,7 +42,7 @@ const Home: React.FC = () => {
           </div>
         </section>
 
-        <section className="flex gap-2">
+        <section className="gap-2">
           <div className="bg-white rounded-xl p-5 mt-2 grid gap-5 grid-rows-2">
             <div> Get to know me better!</div>
             <div>
@@ -121,7 +121,36 @@ const Home: React.FC = () => {
             </ul>
           </div>
         </section>
-        <section className="bg-white rounded-xl m-2 p-6">Hello</section>
+        <section className="bg-white rounded-xl m-2 p-6">
+          <div className="flex-1 mx-auto xl:mx-0 max-w-2xl">
+            <form className="flex flex-col gap-5 shadow-lg rounded-2xl md:p-10 p-8 my-10 bg-white lg:my-0">
+              <div className="grid md:grid-cols-2 grid-cols-1 gap-x-8 gap-y-8">
+                <InputField placeholder="John Doe" fieldName="Full name" />
+                <InputField
+                  placeholder="(000)000-0000"
+                  fieldName="Phone number"
+                />
+                <InputField
+                  placeholder="123 Cleaning Lane, NY"
+                  fieldName="Address"
+                />
+                <InputField placeholder="john@doe.com" fieldName="Email" />
+                <InputField
+                  placeholder="Full cleaning"
+                  fieldName="Request service"
+                />
+                <InputField
+                  placeholder="May 17, 2023"
+                  fieldName="Day of service"
+                />
+              </div>
+              <TextArea fieldName="Add a note"></TextArea>
+              <div className="md:w-60 w-full">
+                <SubmitButton text="Submit Request" />
+              </div>
+            </form>
+          </div>
+        </section>
       </Wrapper>
     </>
   );
