@@ -23,7 +23,9 @@ export default function Navbar() {
               <Link href={"/#Projects"}>Projects</Link>
             </NavLink>
           </ul>
-          <Button>Get in touch</Button>
+          <Link href={"/contact"}>
+            <Button>Get in touch</Button>
+          </Link>
         </div>
       </nav>
     </Wrapper>
