@@ -1,5 +1,5 @@
 import { InputField, SubmitButton, TextArea } from "@/components/Form";
-import { BodyText, SubTitle, Title } from "@/components/Typography";
+import { BodyText, Title } from "@/components/Typography";
 import Wrapper from "@/components/Wrapper";
 
 export default function Contact() {
