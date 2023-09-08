@@ -5,6 +5,7 @@ import Button from "@/components/Button";
 import React, { useEffect } from "react";
 import TypeWriter from "@/components/TypeWriter";
 import List from "@/components/SkillList";
+import ReadMoreLess from "@/components/ReadMore";
 
 const Home: React.FC = () => {
   useEffect(() => {
@@ -54,10 +55,13 @@ const Home: React.FC = () => {
               Development. When I'm not caught up in my busy schoolwork. I spend
               time reading, watching youtube, lifting weights, and creating
               projects. And of course, the occasional binge-watching on Netflix,
-              napping, or video games.
+              napping, or video games... \{" "}
             </div>
           </div>
-          <div className="bg-white rounded-xl p-5 mt-2 "></div>
+
+          <div className="bg-white  text-black rounded-xl p-5 mt-2 ">
+            <ReadMoreLess />
+          </div>
         </section>
         <section className="grid gap-2 grid-cols-3">
           <div className="bg-white  text-black rounded-xl p-5 mt-2">
