@@ -11,6 +11,7 @@ export default function List(props: any) {
       <li className="flex text-black items-center gap-2 ">
         <Image src={props.imgSrc} width={30} height={30} alt={props.imgAlt} />
         {props.description}
+        
       </li>
     </div>
   );

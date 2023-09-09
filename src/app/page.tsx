@@ -5,7 +5,7 @@ import Button from "@/components/Button";
 import React, { useEffect } from "react";
 import TypeWriter from "@/components/TypeWriter";
 import List from "@/components/SkillList";
-import ReadMoreLess from "@/components/ReadMore";
+import { ReadMoreLess } from "@/components/ReadMore";
 
 const Home: React.FC = () => {
   useEffect(() => {
@@ -49,19 +49,18 @@ const Home: React.FC = () => {
         <section className="gap-2">
           <div className="bg-white rounded-xl text-black p-5 mt-2 grid gap-5 grid-rows-2">
             <div> Get to know me better!</div>
-            <div>
-              My name is Joshua. Living in New York City. Currently a senior at
+            <ReadMoreLess
+              description=" My name is Joshua. Living in New York City. Currently a senior at
               City Tech. Aiming for my Bachelor's Degree in Computer Software
-              Development. When I'm not caught up in my busy schoolwork. I spend
+              Development. When I'm not caught up in ..."
+              more="my busy schoolwork. I spend
               time reading, watching youtube, lifting weights, and creating
               projects. And of course, the occasional binge-watching on Netflix,
-              napping, or video games... \{" "}
-            </div>
+              napping, or video games."
+            />
           </div>
 
-          <div className="bg-white  text-black rounded-xl p-5 mt-2 ">
-            <ReadMoreLess />
-          </div>
+          <div className="bg-white  text-black rounded-xl p-5 mt-2 "></div>
         </section>
         <section className="grid gap-2 grid-cols-3">
           <div className="bg-white  text-black rounded-xl p-5 mt-2">
