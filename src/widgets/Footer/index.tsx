@@ -10,9 +10,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-4 sm:gap-6 md:gap-8 lg:gap-9 sm:grid-cols-2 lg:grid-cols-4 py-6 sm:py-12 md:py-24 lg:py-36">
           {/* Column 1 */}
           <div>
-            <p className="text-xl sm:text-1xl md:text-1xl lg:text-2xl font-extrabold mb-1 text-gray-800">
-              Quality cleaning for your home
-            </p>
+            <p className="text-xl sm:text-1xl md:text-1xl lg:text-2xl font-extrabold mb-1 text-gray-800"></p>
             <div className="mb-5 sm:mb-7 md:mb-8 lg:mb-10">
               <BodyText>
                 Lorem ipsum dolor sit amet cteturdo adipiscing elit, sed do
@@ -30,16 +28,16 @@ export default function Footer() {
           {/* Column 2 */}
           <div className="flex flex-col">
             <p className="text-lg sm:text-1xl md:text-1xl lg:text-1xl font font-extrabold mb-3 sm:mb-5 md:mb-6 lg:mb-7 text-gray-800">
-              Contact Us
-            </p>
-            <p className="mb-1.5 sm:mb-2 md:mb-3 lg:mb-3.5 text-gray-700">
-              1827 Nickel Road, Los Angeles, CA, 90017, United States
-            </p>
-            <p className="mb-1.5 sm:mb-2 md:mb-3 lg:mb-3.5 text-gray-700">
-              (000)-000-0000
+              Contact Me
             </p>
             <p className="w-auto mb-1.5 sm:mb-2 md:mb-3 lg:mb-3.5 text-gray-700">
-              contact@cleaning.com
+              
+            </p>
+            <p className="mb-1.5 sm:mb-2 md:mb-3 lg:mb-3.5 text-gray-700">
+              (318)-658-5131
+            </p>
+            <p className="w-auto mb-1.5 sm:mb-2 md:mb-3 lg:mb-3.5 text-gray-700">
+              Joshualim5131@gmail.com
             </p>
           </div>
 

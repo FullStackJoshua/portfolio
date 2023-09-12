@@ -1,5 +1,5 @@
 "use client";
-import { Title, Header } from "@/components/Typography";
+import { Title, Header, SubTitle } from "@/components/Typography";
 import Wrapper from "@/components/Wrapper";
 import Button from "@/components/Button";
 import React, { useEffect } from "react";
@@ -40,13 +40,15 @@ const Home: React.FC = () => {
             </Header>
           </div>
           <div className="flex justify-end items align-bottom">
+            <List imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original-wordmark.svg" />
+            <List imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
             <div className="mt-auto">
               <Button>Get in Touch</Button>
             </div>
           </div>
         </section>
 
-        <section className="gap-2">
+        <section className="gap-2 block">
           <div className="bg-white rounded-xl text-black p-5 mt-2 grid gap-5 grid-rows-2">
             <div> Get to know me better!</div>
             <ReadMoreLess
@@ -62,18 +64,12 @@ const Home: React.FC = () => {
 
           <div className="bg-white  text-black rounded-xl p-5 mt-2 "></div>
         </section>
-        <section className="grid gap-2 grid-cols-3">
+        <section className="grid gap-2 grid-cols-2">
           <div className="bg-white  text-black rounded-xl p-5 mt-2">
             <ul>
-              Tech Stack
-              <List
-                imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-                description="HTML"
-              />
-              <List
-                imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-                description="CSS"
-              />
+              <SubTitle Tech Stack />
+              <List imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+              <List imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
               <List
                 imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                 description="Javascript"
@@ -94,7 +90,7 @@ const Home: React.FC = () => {
           </div>
           <div className="bg-white  text-black  rounded-xl p-5 mt-2  mr-2">
             <ul>
-              Frameworks/Tools
+              <SubTitle Frameworks Tools />
               <List
                 imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
                 description="React.Js"
@@ -111,19 +107,6 @@ const Home: React.FC = () => {
                 imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg"
                 description="Git"
               />
-            </ul>
-          </div>
-
-          <div className="bg-white rounded-xl p-5 mt-2 mr-2">
-            <ul>
-              <List description="Communication" />
-              <List description="Problem-Solving" />
-              <List description="Adapatability" />
-              <List description="Teamwork" />
-              <List description="Time Management" />
-              <List description="Critical Thinking" />
-              <List description="Leadership" />
-              <List description="Continuous Learning" />
             </ul>
           </div>
         </section>
