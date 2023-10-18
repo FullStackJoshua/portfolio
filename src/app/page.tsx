@@ -35,8 +35,8 @@ const Home: React.FC = () => {
               (noun){" "}
             </span>
             <Header className="flex">
-              - A Full Stack Developer. Someone that turns coffee into code. A
-              person who loves
+              - A Full Stack Developer/Software Engineer. Someone that turns
+              coffee into code. A person who loves
               <TypeWriter />
             </Header>
           </div>
