@@ -1,5 +1,7 @@
 import React from "react";
 import { ReadMoreLess } from "../ReadMore";
+import { SubTitle } from "../Typography";
+import List from "../SkillList";
 
 interface DynamicBoxProps {
   expand: boolean;
@@ -33,8 +35,56 @@ const DynamicBox: React.FC<DynamicBoxProps> = ({ expand, setExpand }) => {
         <div>Box 2</div>
       </div>
 
-      <div className="bg-white rounded-xl p-5 text-black col-span-1">box2</div>
-      <div className="bg-white rounded-xl p-5 text-black">box3</div>
+      <div className="bg-white rounded-xl p-5 text-black col-span-3">
+        <ul>
+          <SubTitle Tech Stack />
+          <List
+            imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+            description=" HTML"
+          />
+          <List
+            imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+            description="CSS"
+          />
+          <List
+            imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            description="Javascript"
+          />
+          <List
+            imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+            description=" Java"
+          />
+          <List
+            imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            description="Python"
+          />
+          <List
+            imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+            description="SQL"
+          />
+        </ul>
+      </div>
+      <div className="bg-white rounded-xl p-5 text-black">
+        <ul>
+          <SubTitle Frameworks Tools />
+          <List
+            imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            description="React.Js"
+          />
+          <List
+            imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg"
+            description="Next.js"
+          />
+          <List
+            imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+            description="Tailwind CSS"
+          />
+          <List
+            imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg"
+            description="Git"
+          />
+        </ul>
+      </div>
       <div className="bg-white rounded-xl p-5 text-black col-span-1">box4</div>
       <div className="bg-white rounded-xl p-5 text-black col-span-1">box5</div>
       <div className="bg-white rounded-xl p-5 text-black col-span-1">box6</div>
